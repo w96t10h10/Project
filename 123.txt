@@ -1,13 +1,1 @@
-Mr.	Contreras	Shad	male	3/3/1942	4308 Blue Spruce Lane	Brooklyn	Maryland	21225	United States	1	410-350-3624	ShadPContreras@cuvox.de	Sign language interpreter	Maxaprofit
-Mr.	Wells	Arnold	male	7/13/1997	4754 Bobcat Drive	Washington	Maryland	20005	United States	1	240-747-6126	ArnoldDWells@gustr.com	Painter	Nobil
-Mr.	Ayala	Todd	male	5/4/1981	4708 Forest Avenue	New York	New York	10013	United States	1	646-731-5352	ToddWAyala@teleworm.us	Retail manager	Franklin Simon
-Mrs.	Baker	Jeanette	female	3/26/1982	940 Woodland Terrace	Sacramento	California	95814	United States	1	916-866-2922	JeanetteDBaker@dayrep.com	Mining and geological engineer	Excella
-Mrs.	Walker	Blanca	female	12/1/1951	4736 Lynch Street	Fond Du Lac	Wisconsin	54935	United States	1	920-926-1026	BlancaJWalker@teleworm.us	Private banker	Music Den
-Mr.	Knight	Harold	male	8/30/1946	1264 Columbia Road	Philadelphia	Delaware	19103	United States	1	302-907-7871	HaroldMKnight@rhyta.com	Gas and water service dispatcher	Bell Markets
-Mrs.	Tate	Sandra	female	3/20/1940	775 Spring Avenue	Allentown	Pennsylvania	18101	United States	1	267-629-3575	SandraDTate@einrot.com	Financial investigator	Baltimore Markets
-Ms.	Flores	Mary	female	12/11/1959	608 Mulberry Lane	Miami	Florida	33131	United States	1	561-760-3252	MaryRFlores@armyspy.com	Punch card operator	Protean
-Ms.	Cogdill	Bernice	female	3/8/1941	883 Sycamore Fork Road	Hollywood	Florida	33024	United States	1	954-252-0497	BerniceDCogdill@rhyta.com	Booth cashier	Earthworks Garden Kare
-Mrs.	Blevins	Teresa	female	11/7/1986	2049 Pursglove Court	Dayton	Ohio	45402	United States	1	937-353-0595	TeresaJBlevins@armyspy.com	Funeral attendant	Vinyl Fever
-Ms.	Wilson	Andrea	female	1/12/1959	4043 Carolina Avenue	Brownsville	Texas	78521	United States	1	956-831-5095	AndreaJWilson@rhyta.com	Motor coach driver	Unity Frankford Stores
-Mr.	Eaton	Terry	male	8/24/1966	603 Oliverio Drive	Sharon	Kansas	67138	United States	1	620-497-3505	TerryEEaton@cuvox.de	Payroll specialist	Auto Palace
-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+NAME	1	1	1	1	1	1	1	1	1	1	1	1	1	1

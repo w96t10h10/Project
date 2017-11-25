@@ -146,13 +146,12 @@ void SinglyList::displayAllList() {// can display num of new data
 	int num = 0;
 	AddressNode* currNode = head;
 	while (currNode != NULL) {
-		cout << currNode->LineNum << "" << currNode->Title << " " << currNode->Surname << " " << currNode->GivenName << " " << currNode->Gender << " " << currNode->Birthday << " " << currNode->StreetAddress << " " << currNode->City << " " << currNode->StateFull << " " << currNode->ZipCode << " " << currNode->CountryFull << " " << currNode->TelephotoCountryCode << " " <<
+		cout << currNode->LineNum << ". " << currNode->Title << " " << currNode->Surname << " " << currNode->GivenName << " " << currNode->Gender << " " << currNode->Birthday << " " << currNode->StreetAddress << " " << currNode->City << " " << currNode->StateFull << " " << currNode->ZipCode << " " << currNode->CountryFull << " " << currNode->TelephotoCountryCode << " " <<
 			currNode->TelephotoNumber << " " << currNode->EmailAddress << " " << currNode->Occupation << " " << currNode->Company << " " << endl;
 		currNode = currNode->next;
 		num++;
 	}
 	cout << "Number of nodes in the list: " << num << endl;
-	system("pause");
 }//
 
 void SinglyList::searchAddressData() {//search data use word

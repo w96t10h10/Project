@@ -201,7 +201,7 @@ int main() {
 }*/
 
 
-void insertRecord(SinglyList t1){
+void insertRecord(SinglyList* t1){
     int choice;
     do{
 
@@ -214,14 +214,14 @@ void insertRecord(SinglyList t1){
         cout << "Please enter:" << endl;
         cin >> choice;
         if (choice == 1) {
-            t1.inputNewData();
+            t1->inputNewData();
         }else{
             cout << "invalid option" << endl;
         }
     }while(choice !=2);
 }
 
-void printRecord(SinglyList t1){
+void printRecord(SinglyList* t1){
     int choice;
     do{
         cout << "         Electronic Address Book         " << endl;
@@ -232,7 +232,7 @@ void printRecord(SinglyList t1){
         cout << "--" << endl;
         cin >> choice;
         if (choice == 1) {
-            t1.displayAllList();
+            t1->displayAllList();
         }else{
             cout << "invalid option" << endl;
         }
@@ -244,6 +244,7 @@ int main(){
     SinglyList t1;
     read();
     do{
+
         cout << "" << endl;
         cout << "         Electronic Address Book         " << endl;
         cout << "=========================================" << endl;
@@ -261,7 +262,7 @@ int main(){
         cin >> input;
         switch (input){
             case 1:
-                insertRecord(t1);
+                insertRecord(&t1);
                 break;
             case 2:
                 break;
@@ -272,7 +273,7 @@ int main(){
             case 5:
                 break;
             case 6:
-                printRecord(t1);
+                printRecord(&t1);
                 break;
             default:
                 break;
