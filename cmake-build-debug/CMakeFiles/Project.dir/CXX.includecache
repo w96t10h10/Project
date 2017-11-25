@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Bear/Dropbox/Project/hogor/Project/Function.cpp
+iostream
+-
+Node.h
+/Users/Bear/Dropbox/Project/hogor/Project/Node.h
+Function.h
+/Users/Bear/Dropbox/Project/hogor/Project/Function.h
+fstream
+-
+string
+-
+vector
+-
+
+/Users/Bear/Dropbox/Project/hogor/Project/Function.h
+Node.h
+/Users/Bear/Dropbox/Project/hogor/Project/Node.h
+vector
+-
+
+/Users/Bear/Dropbox/Project/hogor/Project/Node.h
+iostream
+-
+
+/Users/Bear/Dropbox/Project/hogor/Project/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+Function.h
+/Users/Bear/Dropbox/Project/hogor/Project/Function.h
+Node.h
+/Users/Bear/Dropbox/Project/hogor/Project/Node.h
+

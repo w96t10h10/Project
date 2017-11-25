@@ -26,4 +26,5 @@ public:
 
 	AddressNode* next;
 };
-#endif#pragma once
+#endif
+#pragma once

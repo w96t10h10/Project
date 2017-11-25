@@ -5,9 +5,10 @@
 #include "Node.h"
 using namespace std;
 
-int read() {
+void read() {
 
-	std::ifstream is("Contacts for Project.txt", std::ifstream::binary);
+	ifstream is("123.txt", ifstream::binary);
+
 	if (is) {
 		// get length of file:
 		is.seekg(0, is.end);
@@ -30,9 +31,8 @@ int read() {
 
 		delete[] buffer;
 	}
-	return 0;
 }
-
+/*
 int homepage() {
 	int input;
 	do {
@@ -182,7 +182,7 @@ int Page(int x, SinglyList t1) {
 		}
 	}
 }
-
+/*
 int main() {
 	SinglyList t1;
 	int option;
@@ -198,4 +198,86 @@ int main() {
 	} while (!option);
 	system("pause");
 	return 0;
+}*/
+
+
+void insertRecord(SinglyList t1){
+    int choice;
+    do{
+
+        cout << "         Electronic Address Book         " << endl;
+        cout << "=========================================" << endl;
+        cout << "" << endl;
+        cout << "1. Insert a new record" << endl;
+        cout << "2. Homepage" << endl;
+        cout << "--" << endl;
+        cout << "Please enter:" << endl;
+        cin >> choice;
+        if (choice == 1) {
+            t1.inputNewData();
+        }else{
+            cout << "invalid option" << endl;
+        }
+    }while(choice !=2);
+}
+
+void printRecord(SinglyList t1){
+    int choice;
+    do{
+        cout << "         Electronic Address Book         " << endl;
+        cout << "=========================================" << endl;
+        cout << "" << endl;
+        cout << "1. Print all entries" << endl;
+        cout << "2. Homepage" << endl;
+        cout << "--" << endl;
+        cin >> choice;
+        if (choice == 1) {
+            t1.displayAllList();
+        }else{
+            cout << "invalid option" << endl;
+        }
+    }while(choice !=2);
+}
+
+int main(){
+    int input;
+    SinglyList t1;
+    read();
+    do{
+        cout << "" << endl;
+        cout << "         Electronic Address Book         " << endl;
+        cout << "=========================================" << endl;
+        cout << " " << endl;
+        cout << "1. Insert a new record" << endl;
+        cout << "2. Insert a batch of records" << endl;
+        cout << "3. Modify an excisting record" << endl;
+        cout << "4. Delete an excisting record" << endl;
+        cout << "5. Search for a record" << endl;
+        cout << "6. Print all entries" << endl;
+        cout << "7. exit" << endl;
+        cout << "" << endl;
+        cout << "------------------------------------------" << endl;
+        cout << "Please choose:" << endl;
+        cin >> input;
+        switch (input){
+            case 1:
+                insertRecord(t1);
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                printRecord(t1);
+                break;
+            default:
+                break;
+
+        }
+    }while(input != 7);
+    return 0;
 }
