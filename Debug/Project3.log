@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\rexwu\source\repos\project3\project3\main.cpp(14): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  Function.cpp
+c:\users\rexwu\source\repos\project3\project3\function.cpp(494): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+c:\users\rexwu\source\repos\project3\project3\main.cpp(184): warning C4715: 'Page': not all control paths return a value
+  Project3.vcxproj -> C:\Users\rexwu\source\repos\Project3\Debug\Project3.exe
